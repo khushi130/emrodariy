@@ -58,6 +58,13 @@ class _HOMEState extends State<HOME> {
           labelColor: colorPallete[leftTextColor],
           items: _drawerItems,
           onTap: (newIndex) {
+            newIndex == 0
+                ? Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => HOME(),
+                    ))
+                : null;
             setState(() {
               print(newIndex);
               index = newIndex;
@@ -158,7 +165,7 @@ class _HOMEState extends State<HOME> {
           ),
         ));
   }
-  
+
   List<NetworkImage> img = [
     const NetworkImage(
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlwLPl49YO4VrCTZSmDQVekPJ7bbXfDkPJwYd8luC029XRiYSBDV3uRxELqoHAtb72HgA&usqp=CAU"),
