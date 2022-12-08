@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "140171911483",
+    "project_id": "embroidery-2dfd7",
+    "storage_bucket": "embroidery-2dfd7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140171911483:android:8baf8f9b399216f5bcd71e",
+        "android_client_info": {
+          "package_name": "com.example.embroidery_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140171911483-p86c4ce3o0f5cnc2li7l0ttgrelc9p8q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPpPR4NEO_vWD7N4BeSZiDGGngCAmHQTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140171911483-p86c4ce3o0f5cnc2li7l0ttgrelc9p8q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
